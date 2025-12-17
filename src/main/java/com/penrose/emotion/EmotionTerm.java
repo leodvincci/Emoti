@@ -1,5 +1,7 @@
 package com.penrose.emotion;
 
+import com.penrose.emotideck.emoticard.EmotionDefinition;
+
 import java.util.List;
 
 
