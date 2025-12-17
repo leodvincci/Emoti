@@ -1,4 +1,4 @@
-package com.penrose.user;
+package com.penrose.registration;
 
 public class User {
 
