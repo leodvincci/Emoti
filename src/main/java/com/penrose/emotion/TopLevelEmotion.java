@@ -1,6 +1,6 @@
 package com.penrose.emotion;
 
-public enum EmotionFamily {
+public enum TopLevelEmotion {
     JOY,
     SADNESS,
     ANGER,

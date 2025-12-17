@@ -1,15 +1,16 @@
 package com.penrose.emotion;
 
 import com.penrose.emotideck.emoticard.EmotionDefinition;
+import com.penrose.emotion.coreaffect.HedonicValence;
 
 import java.util.List;
 
 
 public record EmotionTerm(
-        EmotiTermId id,
+        EmotionTermId id,
         EmotionLabel label,          // anxious
         HedonicValence valence,      // unpleasant
-        EmotionFamily family,        // fear/anxiety
+        TopLevelEmotion family,        // fear/anxiety
         EmotionSubfamily subfamily,  // worry / panic / insecurity (optional)
         EmotionDefinition definition,
         List<Prompt> prompts
